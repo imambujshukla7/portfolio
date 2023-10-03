@@ -1,38 +1,45 @@
-# create-svelte
+# My Portfolio
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Welcome to my portfolio site! This repository contains the source code for my personal website [ambujshukla.in](https://ambujshukla.in), showcasing my projects, skills, and experience. The site is deployed on Cloudflare.
 
-## Creating a project
+## Tech Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **SvelteKit**: The modern Svelte framework for building efficient and maintainable web applications.
+- **Tailwind CSS**: A utility-first CSS framework used for styling, providing a responsive and clean design.
+- **Sanity**: Integration with external services for dynamic content and data management.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Project Structure
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **Source Code Organization**: The project follows a well-organized structure with clear separation of configuration files, source code, and assets.
+- **Configurations**: Configuration files such as `svelte.config.js`, `tailwind.config.js`, and `tsconfig.json` are optimized for the project's requirements.
+- **Data Management**: The `lib` folder includes files like `firebase.ts` and `sanity.ts`, indicating integration with external data sources.
+- **3D Animations**: Creative use of animations, adding a unique touch to the user interface.
 
-## Developing
+## Features
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **Single-Page Application**: The website functions as a single-page application, providing a seamless user experience.
+- **Dynamic Sections**: Auto-sliding sections for podcasts, blogs, and projects enhance engagement and user interaction.
+- **3D Animations**: A visually appealing 3D air bubble element revolves around each section, adding a creative touch.
+- **Responsive Design**: The use of responsive design principles ensures the site adapts to various screen sizes.
 
-```bash
-npm run dev
+## Deployment
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+The site is deployed on [Cloudflare](https://www.cloudflare.com/) for content delivery, security, and hosting.
 
-## Building
+## How to Run Locally
 
-To create a production version of your app:
+1. Clone the repository: `git clone https://github.com/imambujshukla7/portfolio.git`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
 
-```bash
-npm run build
-```
+## Contributing
 
-You can preview the production build with `npm run preview`.
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to explore the live site: [ambujshukla.in](https://ambujshukla.in)
